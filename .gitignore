@@ -1,2 +1,6 @@
 /WinUIStudio/bin/*
 **/.vs/*
+/WinUIStudio/obj/x64/*
+/WinUIStudio/obj/x86/*
+/WinUIStudio.Core/obj/x64/*
+/WinUIStudio.Core/obj/x86//*

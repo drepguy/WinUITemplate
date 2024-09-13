@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows10.0.19041": {
+    "net8.0-windows10.0.19041": {
       "ColorCode.Core/2.0.13": {
         "type": "package",
         "dependencies": {
@@ -2286,7 +2286,7 @@
       },
       "WinUIStudio.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.2"
         },
@@ -2298,7 +2298,7 @@
         }
       }
     },
-    "net7.0-windows10.0.19041/win10-arm64": {
+    "net8.0-windows10.0.19041/win-arm64": {
       "ColorCode.Core/2.0.13": {
         "type": "package",
         "dependencies": {
@@ -3053,9 +3053,6 @@
         "runtime": {
           "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {}
         },
-        "native": {
-          "runtimes/win10-arm64/native/Microsoft.Graphics.Canvas.dll": {}
-        },
         "build": {
           "build/net5.0-windows10.0.18362.0/_._": {}
         }
@@ -3163,9 +3160,6 @@
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.System.Projection.dll": {},
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Widgets.Providers.Projection.dll": {},
           "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {}
-        },
-        "native": {
-          "runtimes/win10-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {}
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
@@ -3441,8 +3435,7 @@
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
-          "runtime.win10-arm64.runtime.native.System.IO.Compression": "4.3.0"
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -3649,21 +3642,6 @@
         },
         "runtime": {
           "runtimes/win/lib/netstandard1.5/System.Runtime.Extensions.dll": {}
-        }
-      },
-      "runtime.win10-arm64.runtime.native.System.IO.Compression/4.3.0": {
-        "type": "package",
-        "native": {
-          "runtimes/win10-arm64/native/_._": {}
-        }
-      },
-      "runtime.win7.System.Private.Uri/4.3.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard/_._": {}
-        },
-        "runtime": {
-          "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -4142,8 +4120,7 @@
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
-          "runtime.win7.System.Private.Uri": "4.3.0"
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
           "ref/netstandard/_._": {}
@@ -4849,7 +4826,7 @@
       },
       "WinUIStudio.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.2"
         },
@@ -4861,7 +4838,7 @@
         }
       }
     },
-    "net7.0-windows10.0.19041/win10-x64": {
+    "net8.0-windows10.0.19041/win-x64": {
       "ColorCode.Core/2.0.13": {
         "type": "package",
         "dependencies": {
@@ -5616,9 +5593,6 @@
         "runtime": {
           "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {}
         },
-        "native": {
-          "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
-        },
         "build": {
           "build/net5.0-windows10.0.18362.0/_._": {}
         }
@@ -5726,9 +5700,6 @@
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.System.Projection.dll": {},
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Widgets.Providers.Projection.dll": {},
           "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {}
-        },
-        "native": {
-          "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {}
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
@@ -6004,8 +5975,7 @@
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
-          "runtime.win7-x64.runtime.native.System.IO.Compression": "4.3.0"
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -6212,21 +6182,6 @@
         },
         "runtime": {
           "runtimes/win/lib/netstandard1.5/System.Runtime.Extensions.dll": {}
-        }
-      },
-      "runtime.win7-x64.runtime.native.System.IO.Compression/4.3.0": {
-        "type": "package",
-        "native": {
-          "runtimes/win7-x64/native/clrcompression.dll": {}
-        }
-      },
-      "runtime.win7.System.Private.Uri/4.3.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard/_._": {}
-        },
-        "runtime": {
-          "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -6705,8 +6660,7 @@
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
-          "runtime.win7.System.Private.Uri": "4.3.0"
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
           "ref/netstandard/_._": {}
@@ -7412,7 +7366,7 @@
       },
       "WinUIStudio.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.2"
         },
@@ -7424,7 +7378,7 @@
         }
       }
     },
-    "net7.0-windows10.0.19041/win10-x86": {
+    "net8.0-windows10.0.19041/win-x86": {
       "ColorCode.Core/2.0.13": {
         "type": "package",
         "dependencies": {
@@ -8179,9 +8133,6 @@
         "runtime": {
           "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {}
         },
-        "native": {
-          "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
-        },
         "build": {
           "build/net5.0-windows10.0.18362.0/_._": {}
         }
@@ -8289,9 +8240,6 @@
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.System.Projection.dll": {},
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Widgets.Providers.Projection.dll": {},
           "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {}
-        },
-        "native": {
-          "runtimes/win10-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {}
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
@@ -8567,8 +8515,7 @@
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
-          "runtime.win7-x86.runtime.native.System.IO.Compression": "4.3.0"
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -8775,21 +8722,6 @@
         },
         "runtime": {
           "runtimes/win/lib/netstandard1.5/System.Runtime.Extensions.dll": {}
-        }
-      },
-      "runtime.win7-x86.runtime.native.System.IO.Compression/4.3.0": {
-        "type": "package",
-        "native": {
-          "runtimes/win7-x86/native/clrcompression.dll": {}
-        }
-      },
-      "runtime.win7.System.Private.Uri/4.3.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard/_._": {}
-        },
-        "runtime": {
-          "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -9268,8 +9200,7 @@
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
-          "runtime.win7.System.Private.Uri": "4.3.0"
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
           "ref/netstandard/_._": {}
@@ -9975,7 +9906,7 @@
       },
       "WinUIStudio.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.2"
         },
@@ -12697,65 +12628,6 @@
         "runtimes/win/lib/net/_._",
         "runtimes/win/lib/netcore50/System.Runtime.Extensions.dll",
         "runtimes/win/lib/netstandard1.5/System.Runtime.Extensions.dll"
-      ]
-    },
-    "runtime.win10-arm64.runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "OGYphGRKiMZCmld270yDGfDS5XtA3oTKPWPBUXy0RLm2jvPlgPvAKjpAlB4/DkcbvImI7SheY8Ar4FDVZ8sTpQ==",
-      "type": "package",
-      "path": "runtime.win10-arm64.runtime.native.system.io.compression/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "runtime.win10-arm64.runtime.native.system.io.compression.4.3.0.nupkg.sha512",
-        "runtime.win10-arm64.runtime.native.system.io.compression.nuspec",
-        "runtimes/win10-arm64/native/_._"
-      ]
-    },
-    "runtime.win7-x64.runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "UamDlgSO/nIzc96M+g3wbvAGbAuXjvRYR5Ttm/FVJgt2iva8ouOqSJ0j6eGI7pZDLvD/ZISl9XRZOajE/Xvizg==",
-      "type": "package",
-      "path": "runtime.win7-x64.runtime.native.system.io.compression/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "runtime.win7-x64.runtime.native.system.io.compression.4.3.0.nupkg.sha512",
-        "runtime.win7-x64.runtime.native.system.io.compression.nuspec",
-        "runtimes/win7-x64/native/clrcompression.dll"
-      ]
-    },
-    "runtime.win7-x86.runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "99pM1ZhX7dPNnr/dOxuAxnVl/2XNWRh1WAUfesV3ZKwbR6mnEzpfbz2GX69zrpGvKbEytsjMKCD+auvvH6f7kA==",
-      "type": "package",
-      "path": "runtime.win7-x86.runtime.native.system.io.compression/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "runtime.win7-x86.runtime.native.system.io.compression.4.3.0.nupkg.sha512",
-        "runtime.win7-x86.runtime.native.system.io.compression.nuspec",
-        "runtimes/win7-x86/native/clrcompression.dll"
-      ]
-    },
-    "runtime.win7.System.Private.Uri/4.3.0": {
-      "sha512": "Q+IBgaPYicSQs2tBlmXqbS25c/JLIthWrgrpMwxKSOobW/OqIMVFruUGfuaz4QABVzV8iKdCAbN7APY7Tclbnw==",
-      "type": "package",
-      "path": "runtime.win7.system.private.uri/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "ref/netstandard/_._",
-        "runtime.win7.system.private.uri.4.3.0.nupkg.sha512",
-        "runtime.win7.system.private.uri.nuspec",
-        "runtimes/aot/lib/netcore50/System.Private.Uri.dll",
-        "runtimes/win/lib/netcore50/System.Private.Uri.dll",
-        "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -16103,7 +15975,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0-windows10.0.19041": [
+    "net8.0-windows10.0.19041": [
       "CommunityToolkit.Mvvm >= 8.1.0",
       "CommunityToolkit.WinUI.UI.Animations >= 7.1.2",
       "CommunityToolkit.WinUI.UI.Controls >= 7.1.2",
@@ -16137,15 +16009,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0-windows10.0.19041.0"
+        "net8.0-windows10.0.19041.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0-windows10.0.19041": {
-          "targetAlias": "net7.0-windows10.0.19041.0",
+        "net8.0-windows10.0.19041": {
+          "targetAlias": "net8.0-windows10.0.19041.0",
           "projectReferences": {
             "D:\\git\\ownprojects\\WinUIStudio\\WinUIStudio.Core\\WinUIStudio.Core.csproj": {
               "projectPath": "D:\\git\\ownprojects\\WinUIStudio\\WinUIStudio.Core\\WinUIStudio.Core.csproj"
@@ -16165,8 +16037,8 @@
       }
     },
     "frameworks": {
-      "net7.0-windows10.0.19041": {
-        "targetAlias": "net7.0-windows10.0.19041.0",
+      "net8.0-windows10.0.19041": {
+        "targetAlias": "net8.0-windows10.0.19041.0",
         "dependencies": {
           "CommunityToolkit.Mvvm": {
             "target": "Package",
@@ -16215,27 +16087,27 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-            "version": "[7.0.20, 7.0.20]"
+            "version": "[8.0.8, 8.0.8]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[7.0.20, 7.0.20]"
+            "version": "[8.0.8, 8.0.8]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[7.0.20, 7.0.20]"
+            "version": "[8.0.8, 8.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-            "version": "[7.0.20, 7.0.20]"
+            "version": "[8.0.8, 8.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[7.0.20, 7.0.20]"
+            "version": "[8.0.8, 8.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x86",
-            "version": "[7.0.20, 7.0.20]"
+            "version": "[8.0.8, 8.0.8]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -16243,15 +16115,15 @@
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-            "version": "[7.0.20, 7.0.20]"
+            "version": "[8.0.8, 8.0.8]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[7.0.20, 7.0.20]"
+            "version": "[8.0.8, 8.0.8]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-            "version": "[7.0.20, 7.0.20]"
+            "version": "[8.0.8, 8.0.8]"
           }
         ],
         "frameworkReferences": {
@@ -16262,17 +16134,17 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
-      "win10-arm64": {
+      "win-arm64": {
         "#import": []
       },
-      "win10-x64": {
+      "win-x64": {
         "#import": []
       },
-      "win10-x86": {
+      "win-x86": {
         "#import": []
       }
     }

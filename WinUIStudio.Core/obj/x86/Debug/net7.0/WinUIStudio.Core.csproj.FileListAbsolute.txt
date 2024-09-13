@@ -1,0 +1,12 @@
+D:\git\ownprojects\WinUIStudio\WinUIStudio.Core\bin\x86\Debug\net7.0\WinUIStudio.Core.deps.json
+D:\git\ownprojects\WinUIStudio\WinUIStudio.Core\bin\x86\Debug\net7.0\WinUIStudio.Core.dll
+D:\git\ownprojects\WinUIStudio\WinUIStudio.Core\bin\x86\Debug\net7.0\WinUIStudio.Core.pdb
+D:\git\ownprojects\WinUIStudio\WinUIStudio.Core\obj\x86\Debug\net7.0\WinUIStudio.Core.csproj.AssemblyReference.cache
+D:\git\ownprojects\WinUIStudio\WinUIStudio.Core\obj\x86\Debug\net7.0\WinUIStudio.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\ownprojects\WinUIStudio\WinUIStudio.Core\obj\x86\Debug\net7.0\WinUIStudio.Core.AssemblyInfoInputs.cache
+D:\git\ownprojects\WinUIStudio\WinUIStudio.Core\obj\x86\Debug\net7.0\WinUIStudio.Core.AssemblyInfo.cs
+D:\git\ownprojects\WinUIStudio\WinUIStudio.Core\obj\x86\Debug\net7.0\WinUIStudio.Core.csproj.CoreCompileInputs.cache
+D:\git\ownprojects\WinUIStudio\WinUIStudio.Core\obj\x86\Debug\net7.0\WinUIStudio.Core.dll
+D:\git\ownprojects\WinUIStudio\WinUIStudio.Core\obj\x86\Debug\net7.0\refint\WinUIStudio.Core.dll
+D:\git\ownprojects\WinUIStudio\WinUIStudio.Core\obj\x86\Debug\net7.0\WinUIStudio.Core.pdb
+D:\git\ownprojects\WinUIStudio\WinUIStudio.Core\obj\x86\Debug\net7.0\ref\WinUIStudio.Core.dll

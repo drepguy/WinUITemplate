@@ -21,6 +21,7 @@ public class PageService : IPageService
         Configure<ContentGridViewModel, ContentGridPage>();
         Configure<ContentGridDetailViewModel, ContentGridDetailPage>();
         Configure<SettingsViewModel, SettingsPage>();
+        Configure<PlayingAroundViewModel, PlayingAroundPage>();
     }
 
     public Type GetPageType(string key)

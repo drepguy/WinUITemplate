@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using System.ComponentModel;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 using Microsoft.UI.Xaml.Controls;
 
@@ -38,7 +39,7 @@ public class PageService : IPageService
     }
 
     private void Configure<VM, V>()
-        where VM : ObservableObject
+        where VM : INotifyPropertyChanged
         where V : Page
     {
         lock (_pages)

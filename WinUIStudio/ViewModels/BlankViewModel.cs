@@ -1,10 +1,15 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using System.Runtime.CompilerServices;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace WinUIStudio.ViewModels;
 
-public partial class BlankViewModel : ObservableRecipient
+[ObservableObject]
+public partial class BlankViewModel
 {
     public BlankViewModel()
     {
     }
+
+    [ObservableProperty]
+    private string title = "Hallo Welt!";
 }

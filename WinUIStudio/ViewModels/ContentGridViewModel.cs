@@ -11,18 +11,14 @@ using WinUIStudio.Core.Models;
 
 namespace WinUIStudio.ViewModels;
 
-public partial class ContentGridViewModel : ObservableRecipient, INavigationAware
+
+// using primary constructor
+public partial class ContentGridViewModel(INavigationService navigationService, ISampleDataService sampleDataService) : ObservableRecipient, INavigationAware
 {
-    private readonly INavigationService _navigationService;
-    private readonly ISampleDataService _sampleDataService;
+    private readonly INavigationService _navigationService = navigationService;
+    private readonly ISampleDataService _sampleDataService = sampleDataService;
 
-    public ObservableCollection<SampleOrder> Source { get; } = new ObservableCollection<SampleOrder>();
-
-    public ContentGridViewModel(INavigationService navigationService, ISampleDataService sampleDataService)
-    {
-        _navigationService = navigationService;
-        _sampleDataService = sampleDataService;
-    }
+    public ObservableCollection<SampleOrder> Source { get; } = [];
 
     public async void OnNavigatedTo(object parameter)
     {

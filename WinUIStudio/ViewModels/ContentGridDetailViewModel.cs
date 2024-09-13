@@ -6,17 +6,13 @@ using WinUIStudio.Core.Models;
 
 namespace WinUIStudio.ViewModels;
 
-public partial class ContentGridDetailViewModel : ObservableRecipient, INavigationAware
+// this is primary constructor
+public partial class ContentGridDetailViewModel(ISampleDataService sampleDataService) : ObservableRecipient, INavigationAware
 {
-    private readonly ISampleDataService _sampleDataService;
+    private readonly ISampleDataService _sampleDataService = sampleDataService;
 
     [ObservableProperty]
     private SampleOrder? item;
-
-    public ContentGridDetailViewModel(ISampleDataService sampleDataService)
-    {
-        _sampleDataService = sampleDataService;
-    }
 
     public async void OnNavigatedTo(object parameter)
     {

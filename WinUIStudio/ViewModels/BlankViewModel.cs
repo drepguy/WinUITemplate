@@ -3,8 +3,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace WinUIStudio.ViewModels;
 
-[ObservableObject]
-public partial class BlankViewModel
+public partial class BlankViewModel : ObservableObject
 {
     public BlankViewModel()
     {

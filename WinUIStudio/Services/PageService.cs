@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using CommunityToolkit.Mvvm.ComponentModel;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 
 using Microsoft.UI.Xaml.Controls;
 
@@ -11,7 +10,7 @@ namespace WinUIStudio.Services;
 
 public class PageService : IPageService
 {
-    private readonly Dictionary<string, Type> _pages = new();
+    private readonly Dictionary<string, Type> _pages = [];
 
     public PageService()
     {
@@ -39,7 +38,7 @@ public class PageService : IPageService
     }
 
     private void Configure<VM, V>()
-        where VM : INotifyPropertyChanged
+        where VM : ObservableObject
         where V : Page
     {
         lock (_pages)

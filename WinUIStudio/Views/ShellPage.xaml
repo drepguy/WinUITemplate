@@ -70,7 +70,7 @@
                 </NavigationViewItem>
                 <NavigationViewItem x:Uid="Shell_PlayingAround" helpers:NavigationHelper.NavigateTo="WinUIStudio.ViewModels.PlayingAroundViewModel">
                     <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xf0e2;"/>
+                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xEB90;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
             </NavigationView.MenuItems>

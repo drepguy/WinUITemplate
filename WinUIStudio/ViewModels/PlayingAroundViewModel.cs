@@ -7,6 +7,7 @@ public partial class PlayingAroundViewModel : ObservableObject
 {
     public PlayingAroundViewModel()
     {
+
     }
 
     [ObservableProperty]

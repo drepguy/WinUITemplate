@@ -1,1 +1,0 @@
-D:\git\ownprojects\WinUIStudio\WinUIStudio.Tests\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\WinUIStudio.Tests.csproj.AssemblyReference.cache

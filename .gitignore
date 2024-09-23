@@ -3,3 +3,6 @@
 **/.vs/*
 /WinUIStudio/obj/**
 /WinUIStudio.Core/obj/**
+
+/WinUIStudio.Tests/obj/**
+/WinUIStudio.Tests/bin/**

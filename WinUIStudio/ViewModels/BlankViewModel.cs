@@ -7,6 +7,7 @@ public partial class BlankViewModel : ObservableObject
 {
     public BlankViewModel()
     {
+
     }
 
     [ObservableProperty]
